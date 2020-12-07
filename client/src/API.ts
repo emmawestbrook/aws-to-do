@@ -1,7 +1,7 @@
 import axios, { AxiosResponse } from 'axios'
 
 // API Gateway URL (Copy your own and update here)
-const apiGatewayUrl: string = 'api_gateway_invoke_url';
+const apiGatewayUrl: string = 'https://bphiy4e3h5.execute-api.us-east-1.amazonaws.com/main-stage';
 const baseUrl: string = 'https://cors-anywhere.herokuapp.com/' + apiGatewayUrl + '/primeTodoLambda';
 
 export const getTodoList = async (): Promise<AxiosResponse<ApiDataType>> => {

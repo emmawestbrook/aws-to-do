@@ -23,6 +23,9 @@
 /client/yarn-debug.log*
 /client/yarn-error.log*
 
+.env
+*.env
+
 *.zip
 
 # Local .terraform directories

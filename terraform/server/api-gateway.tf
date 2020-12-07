@@ -6,10 +6,7 @@ resource "aws_apigatewayv2_api" "main" {
     allow_credentials = false
     allow_headers = ["*"]
     allow_methods = ["POST"]
-    allow_origins = [
-      "http://localhost:3000",
-      "http://${var.s3_bucket_website_endpoint}"
-    ]
+    allow_origins = ["*"]
     expose_headers = []
     max_age = 3000
   }

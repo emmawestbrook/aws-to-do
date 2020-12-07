@@ -19,7 +19,7 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
-        "deploy": "npm run build && aws s3 sync ./build s3://prime-static-site-project",
+        "deploy": "npm run build && aws s3 sync ./build s3://elw-aws-fullstack-todo-12022020",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },
